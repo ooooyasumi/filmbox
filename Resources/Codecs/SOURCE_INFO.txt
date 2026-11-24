@@ -1,0 +1,39 @@
+Filmbox bundled codec runtime
+
+Upstream: FFmpeg
+Version: 9.0.2 (official stable release, 2026-09-18)
+Source: https://ffmpeg.org/releases/ffmpeg-9.0.2.tar.xz
+Source SHA256: 8c3850283eb25fa026482078a04051e0be17347b09ef81a0849bec15a96e002e
+Signature: https://ffmpeg.org/releases/ffmpeg-9.0.2.tar.xz.asc
+Project: https://ffmpeg.org/
+License information: https://ffmpeg.org/legal.html
+License: GNU Lesser General Public License, version 2.1 or later
+
+The archive was obtained directly from FFmpeg over HTTPS. The SHA256 above is
+pinned in scripts/build-codec-runtime.sh and checked before source execution.
+It records archive integrity; a SHA256 alone is not an upstream PGP signature
+verification. No third-party precompiled FFmpeg binary is redistributed.
+
+No FFmpeg source changes. The unmodified corresponding source archive and
+extracted source are retained under .build/CodecRuntime/downloads and src.
+The app also contains the exact archive and build script/configuration under
+Contents/Resources/Licenses/Codecs, alongside the license texts.
+The bundled build-codec-runtime.sh contains all configure/build arguments;
+build-configuration.txt and runtime-info.json describe the actual binary build.
+The FFmpeg libraries are statically linked only into the independent ffmpeg
+and ffprobe executables; Filmbox communicates with these tools as subprocesses.
+No GPL, GPLv3-only or nonfree build components are enabled. No x264/x265 or
+other third-party codec library is linked. Dynamic dependencies are restricted
+to the operating system's Apple frameworks and /usr/lib libraries.
+
+JPEG acknowledgement: This software is based in part on the work of the
+Independent JPEG Group. The FFmpeg source files derived from that work have
+not been changed by Filmbox.
+
+The helper executables may be replaced or rebuilt using the accompanying
+script and source. Re-sign a modified app locally if macOS requires it.
+For external distribution, provide this exact source archive and this build
+script alongside the app (or an equivalent corresponding-source download),
+retain the LGPL and third-party notices, and do not prohibit reverse engineering
+of the LGPL-covered tools for debugging modifications. Distributors remain
+responsible for codec-patent requirements applicable in their jurisdiction.

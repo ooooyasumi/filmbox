@@ -1,0 +1,38 @@
+{
+  "name": "Filmbox Light Table",
+  "version": "1.1.0",
+  "units": "pt at 1x; sRGB hex",
+  "color": {
+    "brand": "#315BFF",
+    "logoBodyOnLight": "#000000",
+    "logoBodyOnDark": "#FFFFFF",
+    "activeTextOnDark": "#8FA7FF",
+    "canvasDark": "#181818",
+    "panelDark": "#17191D",
+    "raisedDark": "#22252B",
+    "borderDark": "#363A42",
+    "textDark": "#F5F6F7",
+    "secondaryDark": "#A9AFBA",
+    "canvasLight": "#ECECEC",
+    "panelLight": "#F5F6F7",
+    "raisedLight": "#FFFFFF",
+    "borderLight": "#D8DCE2",
+    "textLight": "#17191D",
+    "secondaryLight": "#616974"
+  },
+  "spacing": {"base": 4, "gridGap": 6, "panelPadding": 16, "regionGap": 24},
+  "radius": {"photo": 3, "smallToken": 4, "button": 7, "popover": 12},
+  "control": {"compactHeight": 28, "regularHeight": 32, "iconSize": 18, "iconStroke": 1.5},
+  "selection": {"cornerStroke": 2, "cornerLength": 10, "outsideOffset": 2, "checkSize": 20, "focusStroke": 1},
+  "typography": {
+    "interfaceLatin": "system sans-serif",
+    "interfaceChinese": "PingFang SC",
+    "title": {"size": 17, "weight": 600, "lineHeight": 24},
+    "group": {"size": 13, "weight": 600, "lineHeight": 18},
+    "control": {"size": 13, "weight": 400, "lineHeight": 18},
+    "filename": {"size": 12, "weight": 500, "lineHeight": 16},
+    "metadata": {"size": 11, "weight": 400, "lineHeight": 16},
+    "numbers": "tabular figures; never monospaced body text"
+  },
+  "motion": {"feedbackMs": 160, "navigationMs": 240, "reduceMotion": "short opacity transition; preserve location and focus"}
+}

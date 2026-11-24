@@ -1,0 +1,10 @@
+{
+  "artifact": "com.squareup.okhttp3:okhttp:4.12.0",
+  "resource": "okhttp3/internal/publicsuffix/publicsuffixes.gz",
+  "license": "MPL-2.0",
+  "sourceUrl": "https://publicsuffix.org/list/public_suffix_list.dat",
+  "compressedSHA256": "9af43e9995ec749e7a30eec4e5a87770d7e2027847084a07cca82060eff0c791",
+  "decodedSHA256": "5beda335cfa1a9a9f84c4d17f2267ad7304c3c23d14d41256032d78db274431f",
+  "rules": 9499,
+  "exceptions": 8
+}

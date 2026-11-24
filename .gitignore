@@ -1,0 +1,35 @@
+.build/
+.DS_Store
+.swiftpm/
+build/
+*.xcuserstate
+/REFERENCE/
+
+# Local configuration, signing identities and generated reports
+.env
+.env.*
+!.env.example
+*.p12
+*.pfx
+*.keychain-db
+*.mobileprovision
+*.pem
+!CloudEngine/test-fixtures/*.pem
+**/signing.properties
+**/local.properties
+.idea/
+.vscode/
+__pycache__/
+*.pyc
+# Generated synthetic test media
+/Tests/Fixtures/*.mp4
+/Tests/Fixtures/*.webm
+/Android/app/src/androidTest/assets/*.mp4
+/Android/app/src/main/assets/Filmbox-LICENSE
+/Android/app/src/main/assets/THIRD_PARTY_NOTICES.md
+/Android/app/src/main/assets/PRIVACY.md
+/Android/app/src/main/assets/source-build.json
+
+/Android/app/src/main/assets/filmbox-source.tar.gz
+
+/Android/app/src/main/assets/filmbox-source.tgz

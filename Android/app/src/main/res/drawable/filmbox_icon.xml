@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- The unchanged macOS production master, for non-adaptive uses. -->
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp" android:height="108dp"
+    android:viewportWidth="1024" android:viewportHeight="1024">
+    <path android:fillColor="#F5F6F7"
+        android:pathData="M272,64H752A208,208 0,0 1,960 272V752A208,208 0,0 1,752 960H272A208,208 0,0 1,64 752V272A208,208 0,0 1,272 64Z" />
+    <group android:translateX="292" android:translateY="252"
+        android:scaleX="5" android:scaleY="5">
+        <path android:fillColor="#000000" android:pathData="M0,16h24v72h-24z" />
+        <path android:fillColor="#315BFF" android:pathData="M32,0h24v44h-24z" />
+        <path android:fillColor="#000000" android:pathData="M32,60h24v44h-24z" />
+        <path android:fillColor="#000000" android:pathData="M64,16h24v72h-24z" />
+    </group>
+</vector>

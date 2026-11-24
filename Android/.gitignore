@@ -1,0 +1,8 @@
+.gradle/
+.kotlin/
+local.properties
+*.jks
+*.keystore
+app/src/main/jniLibs/*/*.so
+app/src/main/assets/cloud-source.tgz
+app/src/main/assets/CloudEngine-LICENSE

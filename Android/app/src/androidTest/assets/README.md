@@ -1,0 +1,1 @@
+qa-video.mp4 is a synthetic test pattern with sine-wave audio, copied from Tests/Fixtures/h264-aac.mp4 in this repository. No user media or private metadata is included. The fixture may be freely used for Filmbox regression tests. It is not packaged in the production app.

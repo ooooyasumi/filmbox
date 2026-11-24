@@ -1,0 +1,114 @@
+{
+  "appIcon" : {
+    "blueContainer" : false,
+    "canvas" : 1024,
+    "container" : [
+      64,
+      64,
+      896,
+      896
+    ],
+    "containerOnDark" : "#17191D",
+    "containerOnLight" : "#F5F6F7",
+    "cornerRadius" : 208,
+    "exportSizes" : [
+      16,
+      32,
+      64,
+      128,
+      256,
+      512,
+      1024
+    ],
+    "glyphOrigin" : [
+      292,
+      252
+    ],
+    "glyphScale" : 5,
+    "transparentVariants" : [
+      "light",
+      "dark"
+    ]
+  },
+  "colours" : {
+    "border" : "#363A42",
+    "brandBlue" : "#315BFF",
+    "canvas" : "#181818",
+    "lightCanvas" : "#ECECEC",
+    "logoBlack" : "#000000",
+    "logoWhite" : "#FFFFFF",
+    "secondary" : "#A9AFBA",
+    "surface" : "#17191D",
+    "surfaceRaised" : "#22252B",
+    "text" : "#F5F6F7"
+  },
+  "coordinateSystem" : "top-left origin; all values in logical units",
+  "lockup" : {
+    "chineseFont" : "PingFangSC-Medium",
+    "chineseFontSize" : 22,
+    "chineseInkY" : 83.694000000000003,
+    "chineseTracking" : 2.2000000000000002,
+    "englishInkY" : 4,
+    "height" : 104,
+    "markToWordmarkGap" : 32,
+    "width" : 465.89999999999998,
+    "wordmarkFont" : "HelveticaNeue-Bold",
+    "wordmarkFontSize" : 100,
+    "wordmarkTracking" : -1.5
+  },
+  "mark" : {
+    "bodyOnDark" : "#FFFFFF",
+    "bodyOnLight" : "#000000",
+    "clearSpace" : 24,
+    "fixedBlue" : "#315BFF",
+    "fixedBlueRectangleIndex" : 1,
+    "grid" : 4,
+    "rectangles" : [
+      [
+        0,
+        16,
+        24,
+        72
+      ],
+      [
+        32,
+        0,
+        24,
+        44
+      ],
+      [
+        32,
+        60,
+        24,
+        44
+      ],
+      [
+        64,
+        16,
+        24,
+        72
+      ]
+    ],
+    "viewBox" : [
+      0,
+      0,
+      88,
+      104
+    ]
+  },
+  "name" : "Filmbox · 菲林盒 / 光桌",
+  "output" : {
+    "boardPixels" : [
+      2048,
+      1400
+    ],
+    "colourSpace" : "sRGB",
+    "previewPixels" : [
+      1600,
+      800
+    ],
+    "svgTextIsOutlined" : true,
+    "transparentLogoPNG" : true
+  },
+  "version" : "1.1"
+}
