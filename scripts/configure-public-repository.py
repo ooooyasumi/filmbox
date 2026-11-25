@@ -22,7 +22,9 @@ def main():
     config['repositoryUrl'] = url
     config['feedbackUrl'] = url+'/issues/new/choose'
     (ROOT/'release.json').write_text(json.dumps(config,ensure_ascii=False,indent=2)+'\n')
-    links = [f'[版本发布与下载]({url}/releases)', f'[问题反馈]({config["feedbackUrl"]})']
+    website = config.get('websiteUrl', '').rstrip('/')
+    download = f'[官网下载安装包]({website}/#download)' if website else f'[版本发布与下载]({url}/releases)'
+    links = [download, f'[问题反馈]({config["feedbackUrl"]})']
     slug = url.removeprefix('https://github.com/')
     workflow = 'actions/workflows/check.yml'
     badges = [

@@ -2,7 +2,7 @@
 
 ## 版本与校验
 
-macOS 0.6.26 适用于 Apple Silicon / arm64、macOS 15 或更新版本。Android 0.4.1 适用于 Android 11 / API 30 或更新版本、arm64 设备。公开下载地址以 README 中的正式仓库 Releases 为准，地址待负责人提供。
+macOS 0.6.26 适用于 Apple Silicon / arm64、macOS 15 或更新版本。Android 0.4.1 适用于 Android 11 / API 30 或更新版本、arm64 设备。安装包与 SHA-256 由[菲林盒官网](https://ooooyasumi.com/products/filmbox/#download)提供，文件直接从腾讯云 COS 下载。
 
 每个平台的发布文件应同时提供更新说明、`SHA256SUMS`、对应源码提交及文件树 SHA-256。macOS 产物为 `Filmbox-0.6.26.zip`，Android 为 `Filmbox-Android-0.4.1-arm64.apk`。历史发布保存在各自版本目录。
 

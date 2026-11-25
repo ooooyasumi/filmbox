@@ -46,4 +46,4 @@ python3 scripts/source-release.py --manifest build/source-build.json --archive b
 
 从带根 `LICENSE` 的干净源码快照建立独立的 GitHub 仓库。快照包括客户端、云盘引擎、构建脚本和文档截图。原开发历史包含早期设计资料和第三方移植，宣传网站及视频有独立目录。
 
-取得正式地址后，在准备公开的独立仓库中运行 `scripts/configure-public-repository.py`，接通 README 的 Star 计数、检查状态、Releases 和反馈入口。提交地址配置后重新构建并验收。公开提交、包内源码文件树和最终发布回执必须一致。公开分发前按上方清单完成签名与公证验收。
+取得正式地址后，在准备公开的独立仓库中运行 `scripts/configure-public-repository.py`，接通 README 的 Star 计数、检查状态、下载和反馈入口。提交地址配置后重新构建并验收。公开提交、包内源码文件树和最终发布回执必须一致。公开分发前按上方清单完成签名与公证验收。

@@ -17,7 +17,7 @@
 </p>
 
 <p align="center">
-  <a href="https://ooooyasumi.com/products/filmbox/">产品网站（待上线）</a> ·
+  <a href="https://ooooyasumi.com/products/filmbox/">产品网站</a> ·
   <a href="#下载与安装">下载与安装</a> ·
   <a href="docs/USAGE.md">使用手册</a> ·
   <a href="#参与贡献">参与贡献</a>
@@ -55,7 +55,7 @@
 | Android | **0.4.1** | Android 11+（API 30），arm64 | [安装说明](docs/INSTALL.md#android) · [更新记录](Android/CHANGELOG.md) |
 
 <!-- public-links:start -->
-[版本发布与下载](https://github.com/ooooyasumi/filmbox/releases) · [问题反馈](https://github.com/ooooyasumi/filmbox/issues/new/choose)
+[官网下载安装包](https://ooooyasumi.com/products/filmbox/#download) · [问题反馈](https://github.com/ooooyasumi/filmbox/issues/new/choose)
 <!-- public-links:end -->
 
 macOS 公开安装包仍待 Developer ID 签名与 Apple 公证。开发构建可参考[构建说明](docs/BUILD.md)。
