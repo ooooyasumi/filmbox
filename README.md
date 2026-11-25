@@ -8,7 +8,8 @@
 
 <p align="center">
   <!-- repository-badges:start -->
-  <a href="#参与贡献"><img alt="GitHub Star" src="https://img.shields.io/badge/GitHub-Star-315bff?style=flat-square&amp;logo=github&amp;logoColor=white"></a>
+  <a href="https://github.com/ooooyasumi/filmbox/stargazers"><img alt="GitHub Stars" src="https://img.shields.io/github/stars/ooooyasumi/filmbox?style=flat-square&amp;color=315bff"></a>
+  <a href="https://github.com/ooooyasumi/filmbox/actions/workflows/check.yml"><img alt="自动检查" src="https://img.shields.io/github/actions/workflow/status/ooooyasumi/filmbox/check.yml?style=flat-square"></a>
   <!-- repository-badges:end -->
   <a href="#下载与安装"><img alt="macOS · Apple Silicon" src="https://img.shields.io/badge/macOS-Apple%20Silicon-262932?style=flat-square&amp;logo=apple&amp;logoColor=white"></a>
   <a href="#下载与安装"><img alt="Android · arm64" src="https://img.shields.io/badge/Android-arm64-31755f?style=flat-square&amp;logo=android&amp;logoColor=white"></a>
@@ -54,7 +55,7 @@
 | Android | **0.4.1** | Android 11+（API 30），arm64 | [安装说明](docs/INSTALL.md#android) · [更新记录](Android/CHANGELOG.md) |
 
 <!-- public-links:start -->
-公开安装包与校验值将在仓库的 Releases 页面提供。
+[版本发布与下载](https://github.com/ooooyasumi/filmbox/releases) · [问题反馈](https://github.com/ooooyasumi/filmbox/issues/new/choose)
 <!-- public-links:end -->
 
 macOS 公开安装包仍待 Developer ID 签名与 Apple 公证。开发构建可参考[构建说明](docs/BUILD.md)。

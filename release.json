@@ -1,8 +1,8 @@
 {
   "schemaVersion": 1,
-  "repositoryUrl": "",
+  "repositoryUrl": "https://github.com/ooooyasumi/filmbox",
   "websiteUrl": "https://ooooyasumi.com/products/filmbox/",
-  "feedbackUrl": "",
+  "feedbackUrl": "https://github.com/ooooyasumi/filmbox/issues/new/choose",
   "license": {
     "application": "AGPL-3.0-only",
     "cloudEngine": "AGPL-3.0-only",
